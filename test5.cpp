@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-   int[] bilangan = {4, 6, 1, 3, 5};
+   int bilangan[5] = {4, 6, 1, 3, 5};
         int maksimum = bilangan[0];
         
         for(int i = 0; i < bilangan.length; i++){
@@ -10,6 +10,6 @@ int main(){
                 maksimum = bilangan[i];
             }
         }
-        System.out.println(maksimum);
+        cout<<(maksimum);
     }
 }
