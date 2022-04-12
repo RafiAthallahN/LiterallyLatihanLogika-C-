@@ -16,6 +16,5 @@ int main(){
             }
             total += i;
         }
-        cout>>(" = "+total);
+        cout<<(" = "+total);
     }
-}
